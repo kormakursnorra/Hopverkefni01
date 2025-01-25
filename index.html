@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="width=device-width", initial-scale="1.0"> 
-    <title>Jabadabadoo</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    
-</body>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width", initial-scale="1.0"> 
+        <title>Game Pads</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="control_sound_div">
+            <label for="select_sound">Select Sound:</label>
+            <select name="select_sound" id="select_sound">
+                <option value="Sine">Sine</option>
+                <option value="Square">Square</option>
+                <option value="Triangle">Triangle</option>
+            </select>
+        </div>
+        <div id="game_pads_div">
+            <button id="top_left" class="game_pads" type="button"></button>
+            <button id="top_right" class="game_pads" type="button"></button>
+            
+            <button id="bottom_left" class="game_pads" type="button"></button>
+            <button id="bottom_right" class="game_pads" type="button"></button>
+        </div>
+        <div id="start_replay_div">
+            <button id="start_button" class="bottom_buttons" type="button">Start</button>
+            <button id="replay_button" class="bottom_buttons" type="button">Replay</button>       
+                <img src="information.png" alt="Game information icon">
+        </div>
+    </body>
+</html>
