@@ -2,7 +2,7 @@
 <html lang="en">
     <head> 
         <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width", initial-scale="1.0"> 
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"> 
         <title>Game Pads</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
@@ -18,14 +18,19 @@
         <div id="game_pads_div">
             <button id="top_left" class="game_pads" type="button"></button>
             <button id="top_right" class="game_pads" type="button"></button>
-            
             <button id="bottom_left" class="game_pads" type="button"></button>
             <button id="bottom_right" class="game_pads" type="button"></button>
         </div>
         <div id="start_replay_div">
             <button id="start_button" class="bottom_buttons" type="button">Start</button>
-            <button id="replay_button" class="bottom_buttons" type="button">Replay</button>       
+            <button id="replay_button" class="bottom_buttons" type="button">Replay</button>  
+            <div id="game_information">
                 <img src="information.png" alt="Game information icon">
+                <p id="game_info_text">
+                    Press the Start button to begin the game. At each level, repeat the sequence displayed on the board. 
+                    If you need to review the sequence before making your move, press the Replay button
+                </p>
+            </div>
         </div>
     </body>
 </html>
