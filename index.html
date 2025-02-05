@@ -7,32 +7,49 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div id="control_sound_div">
-            <label for="select_sound">Select Sound:</label>
-            <select name="select_sound" id="select_sound">
+
+
+        <div class="control-sound-div">
+            <label for="select-sound">Select Sound: </label>
+            <select name="select-sound" id="select-sound">
                 <option value="Sine">Sine</option>
                 <option value="Square">Square</option>
                 <option value="Triangle">Triangle</option>
             </select>
         </div>
-        <div id="game_pads_div">
-            <button id="top_left" class="game_pads" type="button"></button>
-            <button id="top_right" class="game_pads" type="button"></button>
-            <div id="game_score">1</div>
-            <button id="bottom_left" class="game_pads" type="button"></button>
-            <button id="bottom_right" class="game_pads" type="button"></button>
+
+
+        <div class="game-pads-div">
+            <button id="top-left" class="game-pads" type="button"></button>
+            <button id="top-right" class="game-pads" type="button"></button>
+            
+            <div class="game-score">1</div>
+            
+            <button id="bottom-left" class="game-pads" type="button"></button>
+            <button id="bottom-right" class="game-pads" type="button"></button>
         </div>
-        <div id="start_replay_div">
-            <button id="start_button" class="bottom_buttons" type="button">Start</button>
-            <button id="replay_button" class="bottom_buttons" type="button">Replay</button>  
-            <div id="game_information_div">
-                <img src="information.png" alt="Game information icon">
-                <p id="game_info_text">
-                    Press the Start button to begin the game. At each level, repeat the sequence displayed on the board. 
-                    If you need to review the sequence before making your move, press the Replay button
-                </p>
-            </div>
+
+
+        <div class="start-replay-div">
+            <button id="start-button" class="bottom-buttons" type="button">Start</button>
+            <button id="replay-button" class="bottom-buttons" type="button">Replay</button>  
         </div>
-        <div id="high_score_tracker_div">High Score: 0</div>
+
+
+        <div class="game-information-div">
+            <img src="information.png" alt="Game information icon">
+            <p id="game-info-text">
+                Press the Start button to begin the game. At each level, repeat 
+                the sequence displayed on the board. If you need to review the 
+                sequence before making your move, press the Replay button
+            </p>
+        </div>
+
+        
+        <div class="high-score_tracker-div">
+            High Score: 0
+        </div>
+
+
     </body>
 </html>
